@@ -1,0 +1,57 @@
+:root {
+    --dark-primary-color: #455A64;
+    --default-primary-color: #607D8B; 
+    --light-primary-color: #CFD8DC; 
+    --text-primary-color: #FFFFFF; 
+    --accent-color: #607D8B; 
+    --primary-text-color: #212121; 
+    --secondary-text-color: #757575; 
+    --divider-color: #BDBDBD; 
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+/* Start main_nav section */
+.main_nav {
+    width: 20%;
+    height: 100vh;
+    background-color: var(--default-primary-color);
+}
+
+.main_nav ul{
+    margin: 0;
+    list-style: none;
+    padding: 1rem;
+}
+
+.main_nav a {
+    text-decoration: none;
+    color: var(--text-primary-color);
+}
+
+#title {
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+/* End main_nav section */
+
+/* Start main_content section */
+.main_content {
+    width: 80%;
+    background-color: var(--light-primary-color);
+}
+/* Start main_content section */
